@@ -12,7 +12,7 @@ EXIT 1
 :START_BACKEND
 timeout /t 10 /nobreak
 cd ./backend
-node ./build/Server.js
+node ./build/Index.js
 
 GOTO START_BACKEND
 
