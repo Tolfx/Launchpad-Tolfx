@@ -1,0 +1,1 @@
+start "" C:\Users\Matteus\AppData\Local\Discord\app-1.0.9001\Discord
