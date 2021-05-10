@@ -6,7 +6,7 @@ import open from 'open';
 export const
     row = "6",
     column = "6",
-    color = pad.Colors.green;
+    color = pad.Colors.yellow;
 
 export function run()
 {
