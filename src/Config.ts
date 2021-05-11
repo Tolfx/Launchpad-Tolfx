@@ -1,1 +1,1 @@
-export const ScriptDir = "../Scripts";
+export const ScriptDir = process.cwd()+"/Scripts";

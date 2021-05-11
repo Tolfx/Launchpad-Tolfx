@@ -5,7 +5,7 @@ import { readdirSync } from "fs";
 {
     // Get all of the keys.
     const keys: any[] = [];
-    const commands = readdirSync(process.cwd()+`/Keys/`).filter(f => f.endsWith(".js"));
+    const commands = readdirSync(process.cwd()+`/build/Keys`).filter(f => f.endsWith(".js"));
     for (let file of commands) 
     {
         let pull = require(`../Keys/${file}`);
