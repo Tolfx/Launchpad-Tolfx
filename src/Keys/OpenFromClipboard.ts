@@ -6,12 +6,12 @@ import open from 'open';
 export const
     row = "6",
     column = "6",
-    color = pad.Colors.yellow;
+    color = pad.Colors.red;
 
 export function run()
 {
-    child_process.exec(`${ScriptDir}/EXE/Clipboard.exe`, (err, stdout, stderr) => {
+    /*child_process.exec(`${ScriptDir}/EXE/Clipboard.exe`, (err, stdout, stderr) => {
         const text = stdout.trim();
         open(text);
-    });
+    });*/
 }
