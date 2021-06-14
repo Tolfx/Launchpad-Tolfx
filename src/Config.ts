@@ -1,1 +1,2 @@
-export const ScriptDir = process.cwd()+"/Scripts";
+export const ScriptDir = (process.cwd().replace("\\build", ""))+"/Scripts";
+export const Dir = (process.cwd().replace("\\build", ""));
